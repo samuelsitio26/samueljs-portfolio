@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Chatbot1 from "@/public/image/projects/web/chatbot/chatbot-1.png";
+import Chatbot2 from "@/public/image/projects/web/chatbot/chatbot-2.png";
+import Chatbot3 from "@/public/image/projects/web/chatbot/chatbot-3.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -35,7 +35,7 @@ export default function Page() {
     <>
       <main className="overflow-hidden">
         <FixedButon href="/#projects">
-          <FontAwesomeIcon icon={faChevronLeft} className="text-black pr-10" />
+          <FontAwesomeIcon icon={faChevronLeft} className="text-white pr-10" />
         </FixedButon>
         <div className="relative h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
           <div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
@@ -54,14 +54,14 @@ export default function Page() {
               />
             </motion.div>
           </div>
-          <div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
-            <h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-black text-5xl md:text-8xl font-bold">
+          <div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-[#1e3a5f] bg-opacity-50 md:bg-transparent md:pt-0">
+            <h1 className="md:bg-[#1e3a5f] bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-white text-5xl md:text-8xl font-bold">
               My Projects
             </h1>
             <Hr />
-            <p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
+            <p className="title  text-xl mt-4 tracking-wider text-gray-300 leading-[1.7rem] mb-5">
               List of my projects that I have done and{" "}
-              <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+              <span className="bg-transparent md:bg-[#1e3a5f] bg-opacity-50 xl:bg-transparent">
                 {" "}
                 currently working on.
               </span>
@@ -102,7 +102,7 @@ export default function Page() {
                   className="w-full h-full shadow-lg"
                 >
                   <Image
-                    src={Intervyou1}
+                    src={Chatbot1}
                     alt="Samueljs_"
                     layout="fill"
                     objectFit="cover"
@@ -127,7 +127,7 @@ export default function Page() {
                   className="w-full h-full shadow-lg "
                 >
                   <Image
-                    src={Intervyou3}
+                    src={Chatbot3}
                     alt="Samueljs_"
                     layout="fill"
                     objectFit="cover"
@@ -154,7 +154,7 @@ export default function Page() {
                   className="w-full h-full shadow-lg"
                 >
                   <Image
-                    src={Intervyou2}
+                    src={Chatbot2}
                     alt="Samueljs_"
                     layout="fill"
                     objectFit="cover"
@@ -179,31 +179,20 @@ export default function Page() {
               type: "spring",
             }}
           >
-            <h2 className="text-2xl font-bold tracking-wider mb-3">
-              Intervyou AI
+            <h2 className="text-2xl font-bold tracking-wider mb-3 text-white">
+              Toba Recommendation System Chatbot
             </h2>
-            <p className="text-gray-600 text-justify title text-lg">
-              AI Based interview Preparation Website created to help fresh
-              graduates and job seekers prepare for interviews and optimize
-              their CV through AI-powered features. The website is built using
-              Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-              (TiDB). This website can comprehensively analyze the user&apos;s
-              interview performance by providing a analysis of the user&apos;s
-              answer, gesture, and material recommendation to improve the
-              user&apos;s interview skills.
+            <p className="text-gray-300 text-justify title text-lg">
+              AI-powered chatbot system designed to provide tourism recommendations 
+              for Lake Toba region. The chatbot helps visitors discover attractions, 
+              culinary spots, accommodations, and interesting activities around Lake 
+              Toba through natural language conversations. Built with Svelte, Directus, 
+              and Tailwind CSS, leveraging Gemini AI to understand user queries and 
+              provide personalized recommendations based on preferences and context.
             </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
-                <Link href="projects/intervyou">More</Link>
-              </Button>
-              <Button variation="secondary">
-                <a
-                  href="https://www.intervyou.me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Preview
-                </a>
+                <Link href="projects/toba-chatbot">More</Link>
               </Button>
             </div>
           </motion.div>
@@ -249,10 +238,10 @@ export default function Page() {
           {Object.keys(category).map((key, index) => (
             <button
               key={index}
-              className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-gray-300 focus:text-black focus:ring focus:ring-slate-500 ${
+              className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-[#f97316] focus:text-white focus:ring focus:ring-[#f97316]/50 ${
                 activeCategory === key
-                  ? "bg-gray-300 text-black hover:bg-gray-700 hover:text-white"
-                  : "bg-gray-700 text-white hover:bg-gray-300 hover:text-black"
+                  ? "bg-[#f97316] text-white hover:bg-[#ef4444]"
+                  : "bg-[#1e3a5f] text-white hover:bg-[#f97316]"
               }`}
               onClick={() => setActiveCategory(key)}
             >

@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="Alvalens"
+									alt="Samuel Sitio"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -58,7 +58,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="Samuel Sitio"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -83,7 +83,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me3}
-									alt="Alvalens"
+									alt="Samuel Sitio"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -107,37 +107,38 @@ export default function About() {
 
 						type: "spring",
 					}}>
-					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+					<h2 className="text-2xl font-bold tracking-wider mb-3 text-white">
+						Samuel Janring Saragi Sitio
 					</h2>
-					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
-						<span className="text-black font-medium">
+					<p className="text-gray-300 text-justify title text-lg">
+						Hey there, I&rsquo;m Samuel Sitio, a
+						<span className="text-[#4ade80] font-medium">
 							{" "}
 							passionate Web Developer
 						</span>{" "}
-						with a growing expertise in
-						<span className="text-black font-medium">
+						with strong experience in
+						<span className="text-[#4ade80] font-medium">
 							{" "}
-							Artificial Intelligence.
+							frontend and backend development.
 						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
+						Hailing from Pematangsiantar, North Sumatera, Indonesia, I&rsquo;m currently
 						pursuing my degree in{" "}
-						<span className="text-black font-medium">
-							Computer Science
+						<span className="text-[#4ade80] font-medium">
+							Information Systems
 						</span>{" "}
 						at{" "}
-						<span className="text-black font-medium">
-							Universitas Negeri Malang.
+						<span className="text-[#4ade80] font-medium">
+							Institut Teknologi Del.
 						</span>{" "}
-						My work bridges modern web technologies and intelligent systems—from
-						building responsive, scalable websites to exploring generative AI
-						and LLM-based solutions. Beyond development, I stay curious about
-						design and emerging technologies. In today&rsquo;s ever-changing
+						My work focuses on building responsive, scalable, and
+						secure web applications using React.js, Svelte, Laravel, Golang, and JavaScript.
+						Beyond development, I have hands-on experience in
+						<span className="text-[#4ade80] font-medium"> cybersecurity</span> and
+						<span className="text-[#4ade80] font-medium"> machine learning deployment</span>.
+						In today&rsquo;s ever-changing
 						digital landscape, I believe being a
-						<span className="text-black font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and explore the evolving intersection
-						of web and AI together!
+						<span className="text-[#4ade80] font-medium"> lifelong learner</span> is
+						essential. Let&rsquo;s connect and build impactful digital solutions together!
 					</p>
 					<Card />
 				</motion.div>

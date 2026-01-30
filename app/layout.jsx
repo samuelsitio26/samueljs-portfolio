@@ -5,7 +5,6 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
-import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
@@ -14,15 +13,15 @@ export const metadata = {
   description:
     "My name is Samueljs_. I'm a web developer and I'm passionate about it.",
 
-  author: "Samueljs_",
-  siteUrl: "https://www.alvalens.my.id",
+  author: "Samuel Sitio",
+  siteUrl: "https://samueljs.vercel.app",
   applicationName: "Samueljs_",
 
   keywords: ["samueljs_", "samuel js", "samueljs portfolio", "web developer"],
 
   openGraph: {
     type: "website",
-    url: "https://www.alvalens.my.id",
+    url: "https://samueljs.vercel.app",
     title: "Samueljs_ | Portofolio",
     site_name: "Samueljs_ | Portofolio",
     description: "My name is Samueljs_. This is my portofolio website.",
@@ -45,7 +44,6 @@ export default function RootLayout({ children }) {
         <ClientTopProgressBar />
         <Navbar />
         {children}
-        <Chat />
         <Analytics />
       </body>
     </html>

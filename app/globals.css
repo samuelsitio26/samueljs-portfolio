@@ -23,8 +23,8 @@ html {
 
 body {
 	font-family: 'Poppins', sans-serif !important;
-	color: black;
-	background-color: rgb(230, 230, 230);
+	color: white;
+	background-color: #0a1628;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,7 +88,7 @@ a[title]:hover:after {
 	padding: 0.5rem;
 	white-space: nowrap;
 	z-index: 1;
-	background-color: #333333;
+	background-color: #1e3a5f;
 	color: #fff;
 	border-radius: 4px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -97,6 +97,6 @@ a[title]:hover:after {
 }
 
 ::selection {
-	background: #333333;
+	background: #f97316;
 	color: #fff;
 }

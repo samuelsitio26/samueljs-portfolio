@@ -1,6 +1,6 @@
-# Alvalens Porto 2
+# Samuel Sitio Portfolio
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=samuelsitio26-portfolio.visitor-badge)
 
 This is my debut project utilizing Next.js, a portfolio website featuring four primary sections: Home, About, Projects, and Contact. The site is brought to life with animations powered by Framer Motion, enhanced page transitions with Fullpage.js, and styled using elements of Tailwind CSS. This project also read list of project data from a JSON file. It serves as a showcase of my web development skills and represents my initial foray into web development with Next.js.
 
@@ -24,12 +24,12 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
 2. Clone the repository:
 
    ```shell
-   git clone https://github.com/Alvalens/Alvalens-porto-2-nextJs.git
+   git clone https://github.com/samuelsitio26/samuel-porto-nextJs.git
    ```
 3. Navigate to the project directory:
 
    ```shell
-   cd Alvalens-porto-2-nextJs
+   cd samuel-porto-nextJs
    ```
 4. Install dependencies:
 
@@ -113,4 +113,4 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 
 This project is licensed under the GPL-3.0 License see the [LICENSE](LICENSE) file for details.
 
-Copyright (C) 2025 Alvalen Shafelbilyunazra
+Copyright (C) 2025 Samuel Janring Saragi Sitio

@@ -105,7 +105,7 @@ function Page(props) {
 			<FixedButon href="/projects">
 				<FontAwesomeIcon
 					icon={faChevronLeft}
-					className="text-black pr-10"
+					className="text-white pr-10"
 				/>
 			</FixedButon>
 			<ScrollDownButton />
@@ -113,35 +113,35 @@ function Page(props) {
 				<div className="mx-auto grid grid-cols-1 md:grid-cols-2  mt-10 md:mt-0">
 					<div className="min-h-screen sm:min-h-0 flex justify-center items-start flex-col mb-5 space-y-10 mx-auto">
 						<div>
-							<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+							<h2 className="uppercase font-normal text-lg tracking-[8px] text-[#f97316]">
 								Project
 							</h2>
-							<h1 className="text-4xl font-medium text-neutral-900">
+							<h1 className="text-4xl font-medium text-white">
 								{data.title}
 							</h1>
 						</div>
 						<div>
-							<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+							<h2 className="uppercase font-normal text-lg tracking-[8px] text-[#f97316]">
 								Technology
 							</h2>
-							<p className="text-2xl font-normal text-neutral-900">
+							<p className="text-2xl font-normal text-gray-300">
 								{data.tech.join(", ")}
 							</p>
 						</div>
 						<div>
-							<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+							<h2 className="uppercase font-normal text-lg tracking-[8px] text-[#f97316]">
 								Year
 							</h2>
-							<p className="text-2xl font-normal text-neutral-900">
+							<p className="text-2xl font-normal text-gray-300">
 								{data.year}
 							</p>
 						</div>
 						{data.preview && (
 							<div>
-								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+								<h2 className="uppercase font-normal text-lg tracking-[8px] text-[#f97316]">
 									Preview
 								</h2>
-								<p className="text-2xl font-normal text-neutral-900">
+								<p className="text-2xl font-normal text-[#3b82f6]">
 									<a
 										href={data.preview}
 										target="_blank"
@@ -157,10 +157,10 @@ function Page(props) {
 						)}
 						{data.code && (
 							<div>
-								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+								<h2 className="uppercase font-normal text-lg tracking-[8px] text-[#f97316]">
 									Source Code
 								</h2>
-								<p className="text-2xl font-normal text-neutral-900">
+								<p className="text-2xl font-normal text-[#3b82f6]">
 									<a
 										href={data.code}
 										target="_blank"
@@ -176,13 +176,13 @@ function Page(props) {
 						)}
 					</div>
 					<div className="flex justify-start items-start flex-col mb-5 ">
-						<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+						<h2 className="uppercase font-normal text-lg tracking-[8px] text-[#f97316]">
 							Description
 						</h2>
 						{data.desc.map((desc, index) => (
 							<p
 								key={index}
-								className="text-xl text-justify tracking-wide font-normal text-gray-500 mb-5">
+								className="text-xl text-justify tracking-wide font-normal text-gray-300 mb-5">
 								{desc}
 							</p>
 						))}

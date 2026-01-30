@@ -98,8 +98,8 @@ function SkillCard({ skill, isSelected, onClick }) {
 			onClick={onClick}
 			className={`relative cursor-pointer group p-6 rounded-2xl backdrop-blur-lg border transition-all duration-300 ${
 				isSelected
-					? "bg-white/20 border-black border-2 shadow-lg"
-					: "bg-white/10 border-gray-300/20 hover:bg-white/20 hover:border-gray-300/30"
+					? "bg-[#1e3a5f]/60 border-[#f97316] border-2 shadow-lg"
+					: "bg-[#1e3a5f]/30 border-[#f97316]/20 hover:bg-[#1e3a5f]/50 hover:border-[#f97316]/50"
 			}`}
 			whileHover={{
 				scale: 1.05,
@@ -121,15 +121,15 @@ function SkillCard({ skill, isSelected, onClick }) {
 			<div className="relative z-10 flex flex-col items-center text-center space-y-4">
 				<div
 					className={`p-4 rounded-xl transition-all duration-300 ${
-						isSelected ? "bg-white/30" : "bg-white/10 group-hover:bg-white/20"
+						isSelected ? "bg-[#f97316]/30" : "bg-[#1e3a5f]/30 group-hover:bg-[#f97316]/20"
 					}`}>
-					<Icon className="w-8 h-8 text-black" />
+					<Icon className="w-8 h-8 text-white" />
 				</div>
 				<div>
-					<h3 className="font-semibold text-black text-lg mb-2">
+					<h3 className="font-semibold text-white text-lg mb-2">
 						{skill.title}
 					</h3>
-					<p className="text-gray-600 text-sm leading-relaxed">
+					<p className="text-gray-300 text-sm leading-relaxed">
 						{skill.description}
 					</p>
 				</div>
@@ -150,11 +150,11 @@ function SkillDetails({ selectedSkill }) {
 			className="mt-12 space-y-8">
 			{/* Languages & Frameworks */}
 			<motion.div
-				className="backdrop-blur-lg bg-white/20 border border-gray-300/30 rounded-2xl p-8"
+				className="backdrop-blur-lg bg-[#1e3a5f]/40 border border-[#f97316]/30 rounded-2xl p-8"
 				initial={{ opacity: 0, x: -50 }}
 				animate={{ opacity: 1, x: 0 }}
 				transition={{ delay: 0.2 }}>
-				<h3 className="text-2xl font-semibold text-black mb-6 text-center">
+				<h3 className="text-2xl font-semibold text-white mb-6 text-center">
 					Languages & Frameworks
 				</h3>
 				<div className="flex flex-wrap justify-center gap-3">
@@ -164,10 +164,10 @@ function SkillDetails({ selectedSkill }) {
 							initial={{ opacity: 0, scale: 0.8 }}
 							animate={{ opacity: 1, scale: 1 }}
 							transition={{ delay: 0.3 + index * 0.1 }}
-							className="px-4 py-2 bg-gradient-to-r from-gray-200/60 to-white/40 
-									 border border-gray-400/40 rounded-full text-black font-medium
-									 backdrop-blur-sm hover:scale-105 transition-transform cursor-default
-									 hover:bg-gradient-to-r hover:from-gray-300/60 hover:to-white/50">
+className="px-4 py-2 bg-gradient-to-r from-[#f97316]/40 to-[#ef4444]/30 
+											 border border-[#f97316]/40 rounded-full text-white font-medium
+											 backdrop-blur-sm hover:scale-105 transition-transform cursor-default
+											 hover:bg-gradient-to-r hover:from-[#f97316]/60 hover:to-[#ef4444]/50">
 							{lang}
 						</motion.span>
 					))}
@@ -176,11 +176,11 @@ function SkillDetails({ selectedSkill }) {
 
 			{/* Tools */}
 			<motion.div
-				className="backdrop-blur-lg bg-white/20 border border-gray-300/30 rounded-2xl p-8"
+				className="backdrop-blur-lg bg-[#1e3a5f]/40 border border-[#3b82f6]/30 rounded-2xl p-8"
 				initial={{ opacity: 0, x: 50 }}
 				animate={{ opacity: 1, x: 0 }}
 				transition={{ delay: 0.4 }}>
-				<h3 className="text-2xl font-semibold text-black mb-6 text-center">
+				<h3 className="text-2xl font-semibold text-white mb-6 text-center">
 					Tools & Technologies
 				</h3>
 				<div className="flex flex-wrap justify-center gap-3">
@@ -190,10 +190,10 @@ function SkillDetails({ selectedSkill }) {
 							initial={{ opacity: 0, scale: 0.8 }}
 							animate={{ opacity: 1, scale: 1 }}
 							transition={{ delay: 0.5 + index * 0.1 }}
-							className="px-4 py-2 bg-gradient-to-r from-gray-300/60 to-gray-100/40 
-									 border border-gray-500/40 rounded-full text-black font-medium
-									 backdrop-blur-sm hover:scale-105 transition-transform cursor-default
-									 hover:bg-gradient-to-r hover:from-gray-400/60 hover:to-gray-200/50">
+className="px-4 py-2 bg-gradient-to-r from-[#3b82f6]/40 to-[#1e3a5f]/40 
+											 border border-[#3b82f6]/40 rounded-full text-white font-medium
+											 backdrop-blur-sm hover:scale-105 transition-transform cursor-default
+											 hover:bg-gradient-to-r hover:from-[#3b82f6]/60 hover:to-[#1e3a5f]/50">
 							{tool}
 						</motion.span>
 					))}
@@ -213,10 +213,10 @@ export default function Skills() {
 					whileInView={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.6 }}
 					className="text-center space-y-4 mb-16">
-					<h2 className="text-5xl font-bold bg-gradient-to-r from-black to-gray-600 bg-clip-text text-transparent">
+					<h2 className="text-5xl font-bold bg-gradient-to-r from-white to-[#f97316] bg-clip-text text-transparent">
 						Skills & Expertise
 					</h2>
-					<p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
+					<p className="text-gray-300 max-w-2xl mx-auto text-lg leading-relaxed">
 						Explore my technical skills across different domains. Click on any
 						category to see the specific technologies and tools I work with.
 					</p>

@@ -6,119 +6,103 @@ import { useState } from "react";
 const experiences = [
 	{
 		id: 1,
-		startDate: "Sep 2023",
-		endDate: "Jan 2024",
-		company: "Universitas Negeri Malang",
-		position: "Assistant Lecturer",
-		type: "Seasonal",
-		location: "Malang, Indonesia",
+		startDate: "Sep 2024",
+		endDate: "Jan 2026",
+		company: "Badan Eksekutif Mahasiswa Institut Teknologi Del",
+		position: "President of the Student Executive Board",
+		type: "Leadership",
+		location: "Laguboti, North Sumatra, Indonesia",
 		description:
-			"Assisted in teaching and mentoring students in algorithms and data structures, focusing on practical applications and problem-solving techniques. Developed course materials and provided support in lab sessions.",
-		skills: ["Python", "C", "Algorithms", "Data Structures", "Mentoring"],
+			"Led and coordinated the Student Executive Board (BEM) at Institut Teknologi Del, managing various student programs and initiatives. Oversaw organizational activities, facilitated collaboration between student divisions, and represented student interests to university administration. Developed leadership skills while ensuring effective execution of student welfare programs and campus events.",
+		skills: ["Leadership", "Public Speaking", "Event Management", "Teamwork", "Communication", "Problem Solving"],
 	},
 	{
 		id: 2,
-		startDate: "Jul 2024",
-		endDate: "Jan 2025",
-		company: "Outlier AI",
-		position: "AI Trainer",
-		type: "Freelance (Remote)",
-		location: "Oakland, California",
+		startDate: "Jun 2025",
+		endDate: "Aug 2025",
+		company: "PT. Eltama Prima Indo",
+		position: "Full-stack Developer",
+		type: "Full-time Internship",
+		location: "Bogor, West Java, Indonesia",
 		description:
-			"Trained LLM models using RLFH, focusing on enhancing their understanding of human language and improving their response accuracy. Collaborated with a team of AI specialists to refine model performance and ensure high-quality outputs.",
-		skills: ["Generative AI", "RLFH", "LLM", "Prompt Engineering", "Teamwork"],
+			"Developed and maintained web applications using modern technologies. Collaborated with cross-functional teams to design, develop, and deploy scalable web solutions. Gained hands-on experience in both frontend and backend development, implementing new features and optimizing application performance.",
+		skills: ["Next.js", "React", "Laravel", "MySQL", "JavaScript", "TypeScript", "API Development", "Teamwork"],
 	},
 	{
 		id: 3,
-		startDate: "Jun 2023",
-		endDate: "Feb 2025",
-		company: "PUI-PT DLI",
-		position: "Fullstack Developer",
-		type: "Freelance",
-		location: "Malang, Indonesia",
+		startDate: "Jan 2025",
+		endDate: "Jun 2025",
+		company: "VINIX7",
+		position: "Independent Learning Campus",
+		type: "MBKM Program (Remote)",
+		location: "Laguboti, North Sumatra, Indonesia",
 		description:
-			"Crafted and maintained web applications using Laravel, ensuring high performance and responsiveness. Collaborated with designers and other  developers to create seamless user experiences.",
-		skills: ["Laravel", "MySQL", "PHP", "JavaScript", "Teamwork"],
+			"Participated in the Independent Learning Campus program (MBKM) focused on cybersecurity and web development. Completed intensive training in Junior Cyber Security, gaining practical knowledge in security protocols, vulnerability assessment, and ethical hacking. Enhanced skills through real-world project implementations and industry mentorship.",
+		skills: ["Cybersecurity", "Web Development", "Security Analysis", "Ethical Hacking", "Problem Solving"],
 	},
 	{
 		id: 4,
-		startDate: "Apr 2025",
-		endDate: "Jul 2025",
-		company: "Vektorian Labophase",
-		position: "Front-end Developer",
-		type: "Freelance",
-		location: "Malang, Indonesia",
+		startDate: "Jan 2025",
+		endDate: "May 2025",
+		company: "Institut Teknologi Del",
+		position: "Student Teaching Assistant of Linear Algebra",
+		type: "Part-time",
+		location: "Laguboti, North Sumatra, Indonesia",
 		description:
-			"Developed and maintained web applications using Next.js. Focused on creating responsive and user-friendly interfaces while ensuring backend functionality. Collaborated with backend and designers to implement modern UI/UX principles.",
-		skills: ["Next.js", "Typescript", "Teamwork"],
+			"Assisted students in understanding Linear Algebra concepts and problem-solving techniques. Provided coaching and mentoring during lab sessions, helped prepare course materials, and supported the lecturer in delivering effective learning experiences. Developed communication and teaching skills while reinforcing own understanding of mathematical concepts.",
+		skills: ["Linear Algebra", "Teaching", "Mentoring", "Communication", "Data Structures and Algorithms"],
 	},
 	{
 		id: 5,
-		startDate: "Apr 2023",
-		endDate: "Present",
-		company: "Self-Employed",
-		position: "Web Developer & AI Consultant",
-		type: "Freelance",
-		location: "Malang, Indonesia",
+		startDate: "Jan 2025",
+		endDate: "May 2025",
+		company: "Institut Teknologi Del",
+		position: "Student Teaching Assistant of Object Oriented Programming",
+		type: "Part-time",
+		location: "Laguboti, North Sumatra, Indonesia",
 		description:
-			"Developed 15+ web applications using Next.js, React, and Laravel. Provided AI consulting services, including creating custom LLMs. Focused on delivering high-quality, user-friendly applications and AI solutions.",
-		skills: [
-			"Next.js",
-			"React",
-			"Laravel",
-			"MySQL",
-			"PostgreSQL",
-			"MongoDB",
-			"JavaScript",
-			"TypeScript",
-			"Gemini AI",
-		],
+			"Supported students in learning Object-Oriented Programming (OOP) principles and practices. Conducted lab sessions, assisted with coding assignments, and provided guidance on programming best practices. Helped students understand concepts like inheritance, polymorphism, encapsulation, and abstraction through practical examples and mentoring.",
+		skills: ["Object-Oriented Programming", "Java", "Teaching", "Coaching & Mentoring", "Data Structures and Algorithms"],
 	},
 	{
 		id: 6,
-		startDate: "Aug 2023",
-		endDate: "Present",
-		company: "PT Hafdzamedia Teknologi Aplikasi",
-		position: "Fullstack Web Developer",
+		startDate: "Feb 2024",
+		endDate: "May 2024",
+		company: "Institut Teknologi Del",
+		position: "Student Teaching Assistant of Basic Mathematics Courses",
 		type: "Part-time",
-		location: "Malang, Indonesia",
+		location: "Laguboti, North Sumatra, Indonesia",
 		description:
-			"Developed and maintained web applications using React, Next.js, and Laravel. Focused on creating responsive and user-friendly interfaces while ensuring backend functionality.",
-		skills: [
-			"React",
-			"Next.js",
-			"Laravel",
-			"MySQL",
-			"JavaScript",
-			"TypeScript",
-			"Teamwork",
-		],
+			"Assisted in teaching and mentoring students in basic mathematics courses. Provided support during tutorial sessions, helped students with problem-solving techniques, and prepared supplementary learning materials. Focused on building strong foundational mathematical skills and fostering a positive learning environment.",
+		skills: ["Mathematics", "Teaching", "Coaching & Mentoring", "Communication", "Problem Solving"],
 	},
 	{
 		id: 7,
-		startDate: "Feb 2025",
-		endDate: "Present",
-		company: "Joki Proyek",
-		position: "IT Implementation Specialist",
-		type: "Internship (Remote)",
-		location: "Malang, Indonesia",
+		startDate: "Oct 2023",
+		endDate: "Feb 2024",
+		company: "Himpunan Mahasiswa Sistem Informasi IT Del (HIMSI)",
+		position: "Member of Arts Division",
+		type: "Organizational",
+		location: "Laguboti, North Sumatra, Indonesia",
 		description:
-			"Developed and maintained current internal web applications using Next.js & and Laravel. Fixed bugs and implemented new features to enhance user experience. Collaborated with the team to ensure smooth deployment and functionality of applications.",
-		skills: [
-			"Next.js",
-			"Laravel",
-			"MySQL",
-			"PostgreSQL",
-			"JavaScript",
-			"TypeScript",
-			"MongoDB",
-			"Docker",
-			"Teamwork",
-		],
+			"As a member of the HIMSI arts division, carried out responsibilities in organizing and coordinating various organizational activities. Collaborated with team members in planning and executing creative events, cultural activities, and student engagement programs. Contributed to enhancing the campus artistic and cultural environment.",
+		skills: ["Event Planning", "Teamwork", "Creativity", "Communication", "Organization"],
+	},
+	{
+		id: 8,
+		startDate: "Dec 2023",
+		endDate: "Dec 2023",
+		company: "Himpunan Mahasiswa Sistem Informasi IT Del (HIMSI)",
+		position: "Coordinator of the Facilities and Infrastructure Section",
+		type: "Organizational",
+		location: "Laguboti, North Sumatra, Indonesia",
+		description:
+			"As coordinator of the Facilities and Infrastructure Section, was responsible for providing equipment and managing venues for organizing association events. Ensured smooth logistics and resource allocation for student activities, coordinating with various stakeholders to deliver successful events.",
+		skills: ["Event Coordination", "Resource Management", "Problem Solving", "Teamwork", "Logistics"],
 	},
 ];
 
-experiences.reverse();
+// experiences.reverse();
 
 function Title() {
 	return (
@@ -157,19 +141,19 @@ function TimelineCard({ experience, index, isEven }) {
 					? "md:justify-center md:translate-x-68"
 					: "md:justify-center md:-translate-x-68"
 			} justify-center mb-4`}>
-			<div className="bg-gradient-to-r from-black to-gray-800 text-white px-12 py-3 rounded-xl shadow-lg border border-gray-600 min-w-max">
+			<div className="bg-gradient-to-r from-[#1e3a5f] to-[#3b82f6] text-white px-12 py-3 rounded-xl shadow-lg border border-[#f97316]/30 min-w-max">
 				<div className="flex items-center justify-center gap-6">
 					<div className="text-center">
 						<div className="text-sm font-bold">{experience.startDate}</div>
 						<div className="text-xs text-gray-300">Start</div>
 					</div>
-					<div className="w-px h-8 bg-gray-500"></div>
+					<div className="w-px h-8 bg-[#f97316]/50"></div>
 					<div className="text-center">
 						<div className="text-sm font-bold">{experience.endDate}</div>
 						<div className="text-xs text-gray-300">End</div>
-					</div>					<div className="w-px h-8 bg-gray-500"></div>
+					</div>					<div className="w-px h-8 bg-[#f97316]/50"></div>
 					<div className="text-center">
-						<div className="text-sm font-medium text-gray-400">
+						<div className="text-sm font-medium text-gray-300">
 							{experience.location}
 						</div>
 						<div className="text-xs text-gray-300">Location</div>
@@ -192,23 +176,23 @@ function ExperienceCard({ experience, index, isEven }) {
 			{" "}
 			{/* Card */}
 			<div
-				className={`bg-white/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-6 shadow-lg 
-				hover:shadow-xl hover:bg-white/30 transition-all duration-300 ml-12 md:ml-0`}>
+				className={`bg-[#1e3a5f]/40 backdrop-blur-sm border border-[#f97316]/30 rounded-2xl p-6 shadow-lg 
+				hover:shadow-xl hover:bg-[#1e3a5f]/60 transition-all duration-300 ml-12 md:ml-0`}>
 				{/* Company & Position */}
 				<div className="mb-4">
-					<h3 className="font-bold text-xl text-black mb-1">
+					<h3 className="font-bold text-xl text-white mb-1">
 						{experience.company}
 					</h3>
-					<h4 className="font-medium text-lg text-gray-700">
+					<h4 className="font-medium text-lg text-[#f97316]">
 						{experience.position}
-						<span className="text-sm font-normal text-gray-500 ml-2">
+						<span className="text-sm font-normal text-gray-400 ml-2">
 							• {experience.type}
 						</span>
 					</h4>
 				</div>
 
 				{/* Description */}
-				<p className="text-gray-600 text-justify leading-relaxed mb-4">
+				<p className="text-gray-300 text-justify leading-relaxed mb-4">
 					{experience.description}
 				</p>
 
@@ -217,7 +201,7 @@ function ExperienceCard({ experience, index, isEven }) {
 					{experience.skills.map((skill, idx) => (
 						<span
 							key={idx}
-							className="bg-gray-200/60 hover:bg-gray-300/60 border border-gray-400/40 text-black px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm hover:scale-105">
+							className="bg-[#3b82f6]/40 hover:bg-[#3b82f6]/60 border border-[#3b82f6]/40 text-white px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm hover:scale-105">
 							{skill}
 						</span>
 					))}

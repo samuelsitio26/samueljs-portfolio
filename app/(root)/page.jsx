@@ -1,5 +1,5 @@
-// Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
+// Copyright (C) 2025 Samuel Janring Saragi Sitio
+// This file is part of Samuel-porto-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -61,7 +61,7 @@ const MyPage = () => {
                     </div>
                   </div>
                   <motion.h3
-                    className="uppercase text-xl mb-3 font-normal text tracking-[.5rem] text-gray-500"
+                    className="uppercase text-xl mb-3 font-normal text tracking-[.5rem] text-[#f97316]"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -72,7 +72,7 @@ const MyPage = () => {
                     Samueljs_
                   </motion.h3>
                   <motion.h1
-                    className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
+                    className="text-white text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -83,7 +83,7 @@ const MyPage = () => {
                     Full Stack Developer
                   </motion.h1>
                   <motion.p
-                    className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
+                    className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-300 leading-[1.7rem]"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -92,8 +92,8 @@ const MyPage = () => {
                     }}
                   >
                     Hi! I&rsquo;m Samueljs_, a junior fullstack developer
-                    specializing in modern Web Development with a growing focus
-                    on Artificial Intelligence. Passionate about building
+                    specializing in <span className="text-[#4ade80] font-medium">modern Web Development</span> with a growing focus
+                    on <span className="text-[#4ade80] font-medium">Artificial Intelligence</span>. Passionate about building
                     scalable, user-friendly web applications and exploring AI
                     technologies such as generative models and LLM integration.
                   </motion.p>
@@ -176,7 +176,7 @@ const MyPage = () => {
                 </div>
                 <div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
                   <motion.h1
-                    className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+                    className="bg-[#1e3a5f] lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-white text-5xl md:text-8xl font-bold"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -188,7 +188,7 @@ const MyPage = () => {
                   </motion.h1>
                   <Hr />
                   <motion.p
-                    className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                    className="title  text-xl mt-4 tracking-wider text-gray-300 leading-[1.7rem] mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -246,7 +246,7 @@ const MyPage = () => {
                 </div>
                 <div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
                   <motion.h1
-                    className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+                    className="bg-[#1e3a5f] lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-white text-5xl md:text-8xl font-bold"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -258,7 +258,7 @@ const MyPage = () => {
                   </motion.h1>
                   <Hr />
                   <motion.p
-                    className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                    className="title  text-xl mt-4 tracking-wider text-gray-300 leading-[1.7rem] mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -267,7 +267,7 @@ const MyPage = () => {
                     }}
                   >
                     This is some of my projects that I have done{" "}
-                    <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+                    <span className="bg-transparent md:bg-[#1e3a5f] bg-opacity-50 xl:bg-transparent">
                       {" "}
                       and currently working on.
                     </span>
@@ -320,7 +320,7 @@ const MyPage = () => {
                 </div>
                 <div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">
                   <motion.h1
-                    className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold mb-3"
+                    className="bg-[#1e3a5f] lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-white text-5xl md:text-8xl font-bold mb-3"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -332,7 +332,7 @@ const MyPage = () => {
                   </motion.h1>
                   <Hr />
                   <motion.p
-                    className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] md:mb-5"
+                    className="title text-xl mt-4 tracking-wider text-gray-300 leading-[1.7rem] md:mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -341,12 +341,12 @@ const MyPage = () => {
                     }}
                   >
                     Feel free to contact me if you have any{" "}
-                    <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+                    <span className="bg-transparent md:bg-[#1e3a5f] bg-opacity-50 xl:bg-transparent">
                       questions or just want to say hi.
                     </span>
                   </motion.p>
                   <motion.p
-                    className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                    className="title text-xl mt-4 tracking-wider text-[#f97316] leading-[1.7rem] mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -362,7 +362,7 @@ const MyPage = () => {
                   <div className="flex justify-center items-center space-x-4">
                     <motion.a
                       href="mailto:samueljanringsitio@gmail.com?subject=Hello&body=Hello Samueljs_,"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-[#1e3a5f] w-14 h-14 rounded-full text-white hover:bg-[#f97316] transition-all ease-in-out duration-300"
                       initial={{ y: 40, opacity: 0 }}
                       whileInView={{ y: 0, opacity: 1 }}
                       transition={{
@@ -377,7 +377,7 @@ const MyPage = () => {
                       href="https://github.com/samuelsitio26"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-[#1e3a5f] w-14 h-14 rounded-full text-white hover:bg-[#f97316] transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
@@ -391,7 +391,7 @@ const MyPage = () => {
                       href="https://www.instagram.com/samueljs_/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-[#1e3a5f] w-14 h-14 rounded-full text-white hover:bg-[#ef4444] transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
@@ -408,7 +408,7 @@ const MyPage = () => {
                       href="https://www.linkedin.com/in/samuel-janring-sitio-6895992aa/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-[#1e3a5f] w-14 h-14 rounded-full text-white hover:bg-[#3b82f6] transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
@@ -422,7 +422,7 @@ const MyPage = () => {
                       href="https://discord.gg/JBFxN4qk"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-[#1e3a5f] w-14 h-14 rounded-full text-white hover:bg-[#3b82f6] transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
