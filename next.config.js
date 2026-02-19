@@ -14,6 +14,8 @@ module.exports = withBundleAnalyzer({
 		formats: ["image/avif", "image/webp"],
 		minimumCacheTTL: 60,
 	},
+	// Enable Turbopack for Next.js 16+
+	turbopack: {},
 	webpack: (config, options) => {
 		config.module.rules.push({
 			test: /\.pdf$/i,
