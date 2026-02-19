@@ -111,7 +111,6 @@ const MyPage = () => {
                         href={"/docs/cv.pdf"}
                         target="_blank"
                         rel="noopener noreferrer"
-                        download
                       >
                         Download CV
                       </Link>
