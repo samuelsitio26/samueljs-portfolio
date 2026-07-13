@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://samueljs.vercel.app/sitemap2.xml

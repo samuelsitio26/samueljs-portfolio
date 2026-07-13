@@ -1,0 +1,144 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "Toba Recommendation System Chatbot",
+      "desc": [
+        "AI-powered chatbot system designed to provide tourism recommendations for Lake Toba region. The chatbot helps visitors discover attractions, culinary spots, accommodations, and interesting activities around Lake Toba through natural language conversations.",
+        "Built with modern technologies including Directus for content management, Svelte for the frontend interface, and Tailwind CSS for styling. The system leverages AI to understand user queries and provide personalized recommendations based on user preferences and context.",
+        "The chatbot features an intuitive interface that allows users to ask about beach destinations, family-friendly tourist spots, budget accommodations, local cuisine, and Instagram-worthy photo spots in the Lake Toba area. The system provides intelligent responses with relevant information to enhance the tourist experience."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/samueljanringsitio/LLM_Hybrid_CAG-RAG",
+      "thumbnail": "/image/projects/web/chatbot/chatbot-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/chatbot/chatbot-1.png",
+        "/image/projects/web/chatbot/chatbot-2.png",
+        "/image/projects/web/chatbot/chatbot-3.png",
+        "/image/projects/web/chatbot/chatbot-4.png"
+      ],
+      "tech": [
+        "React",
+        "Vite",
+        "FastAPI",
+        "Python",
+        "Gemini 2.0 Flash",
+        "FAISS",
+        "RAG",
+        "Uvicorn"
+      ], 
+      "slug": "toba-chatbot",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "RecipeRipple",
+      "desc": [
+        "RecipeRipple is a culinary recipe sharing platform with the tagline 'Bumbu yang Tepat, Masakan yang Hebat!' (Right Seasoning, Great Cooking!). This web application allows users to discover, share, and learn various cooking recipes from all over Indonesia, inspiring culinary creativity and exploring diverse flavors from home.",
+        "Built with Laravel as the main framework, RecipeRipple features a comprehensive recipe management system including user authentication, recipe CRUD operations, rating and review system, and recipe categorization. Users can browse popular recipes, watch cooking tutorial videos, and interact with other cooking enthusiasts through comments and ratings.",
+        "The website offers an intuitive interface with recipe search functionality, detailed cooking instructions with step-by-step guides, ingredient lists, cooking time estimates, and difficulty levels. Each recipe includes user ratings displayed with star ratings, making it easy for users to find the most loved and tested recipes from the community."
+      ],
+      "year": "2024",
+      "preview": "https://reciperipple.my.id/",
+      "code": "https://github.com/samueljanringsitio/RecipeRipple",
+      "thumbnail": "/image/projects/web/reciperipple/reciperipple-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/reciperipple/reciperipple-1.png",
+        "/image/projects/web/reciperipple/reciperipple-2.png",
+        "/image/projects/web/reciperipple/reciperipple-3.png",
+        "/image/projects/web/reciperipple/reciperipple-4.png"
+      ],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "Bootstrap",
+        "MySQL",
+        "jQuery"
+      ], 
+      "slug": "reciperipple",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Space Invaders Game",
+      "desc": [
+        "A classic Space Invaders arcade game built with vanilla HTML, CSS, and JavaScript. Defend Earth from alien invasion in this retro-style shooter game featuring multiple levels, power-ups, and challenging gameplay.",
+        "The game features two modes: Start Mission (Level 1-10) for progressive difficulty and Quick Play (Endless) for continuous gameplay. Players can track their score, remaining lives, and current level while battling waves of alien invaders."
+      ],
+      "year": "2024",
+      "preview": "https://samueljanringsitio.github.io/Space_Game/",
+      "code": "https://github.com/samueljanringsitio/Space_Game",
+      "thumbnail": "/image/projects/other/SpaceInvaders/Space-Invaders-Game-thumbnail.png",
+      "images": [
+        "/image/projects/other/SpaceInvaders/Space-Invaders-1.png",
+        "/image/projects/other/SpaceInvaders/Space-Invaders-2.png",
+        "/image/projects/other/SpaceInvaders/Space-Invaders-3.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ], 
+      "slug": "space-invaders",
+      "category": [9]
+    },
+    {
+      "show": true,
+      "title": "Sistem Inventory - PT Eltama Prima Indo",
+      "desc": [
+        "A comprehensive inventory management system developed during my internship at PT Eltama Prima Indo. This system streamlines the company's inventory operations by providing real-time tracking of products, stock management, and automated reporting features.",
+        "Built with Svelte for a reactive and fast user interface, Directus as the headless CMS and backend system, and styled with Tailwind CSS for a modern and responsive design. The system enables efficient management of inventory items, tracking of stock movements, and generation of detailed inventory reports.",
+        "Key features include product categorization, real-time stock level monitoring, barcode scanning integration, inventory analytics dashboard, and multi-user access control. The system significantly improved inventory accuracy and reduced manual tracking errors for the company."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/samueljanringsitio/Sistem_Inventory",
+      "thumbnail": "/image/projects/web/inventory/inventory-thumbnail.png",
+      "images": [
+        "/image/projects/web/inventory/inventory-1.png",
+        "/image/projects/web/inventory/inventory-2.png",
+        "/image/projects/web/inventory/inventory-3.png",
+        "/image/projects/web/inventory/inventory-4.png"
+      ],
+      "tech": [
+        "Svelte",
+        "Directus",
+        "Tailwind CSS",
+        "JavaScript",
+        "REST API",
+        "MySQL"
+      ], 
+      "slug": "inventory-system",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "WalletNotes",
+      "desc": [
+        "WalletNotes is a personal finance and task management mobile application built with Flutter. It helps users manage their daily transactions, track income and expenses, and organize tasks with reminders — all in one place.",
+        "The app features a clean transaction dashboard showing total balance, income, and expenses at a glance. Users can add, edit, and categorize transactions such as food, transport, and others, with optional notes for each entry. A statistics view provides spending breakdowns per category using an interactive pie chart, filterable by current month, 3 months, 6 months, or all time.",
+        "WalletNotes also includes a full task management module where users can create tasks with priorities (Low, Medium, High), set due dates, add descriptions, and enable notification reminders. The app is built with Flutter and Dart for the frontend, with Java and C components integrated for backend logic, making it a cross-functional mobile solution for everyday financial and productivity needs."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "https://github.com/samueljanringsitio/walletnotes",
+      "thumbnail": "/image/projects/other/walletnotes/walletnotes-tumbalin.png",
+      "images": [
+        "/image/projects/other/walletnotes/wallet-1.png",
+        "/image/projects/other/walletnotes/wallet-2.png",
+        "/image/projects/other/walletnotes/wallet-3.png",
+        "/image/projects/other/walletnotes/wallet-4.png"
+      ],
+      "tech": [
+        "Flutter",
+        "Dart",
+        "Java",
+        "C",
+        "Kotlin"
+      ],
+      "slug": "walletnotes",
+      "category": [9]
+    }
+  ]
+}
