@@ -199,7 +199,7 @@ export default function Education() {
 							</div>
 							<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-[#f97316] text-white px-2 py-1 rounded-2xl">
-									GPA: 3.31 out of 4
+									GPA: 3.35 / 4.00
 								</div>
 							</div>
 						</div>

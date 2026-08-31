@@ -91,11 +91,11 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Hi! I&rsquo;m Samueljs_, a junior fullstack developer
-                    specializing in <span className="text-[#4ade80] font-medium">modern Web Development</span> with a growing focus
-                    on <span className="text-[#4ade80] font-medium">Artificial Intelligence</span>. Passionate about building
-                    scalable, user-friendly web applications and exploring AI
-                    technologies such as generative models and LLM integration.
+                     Hi! I&rsquo;m Samueljs_, a Full Stack Developer &amp; Solution Engineer
+                    specializing in <span className="text-[#4ade80] font-medium">backend development &amp; system design</span> with a strong focus
+                    on <span className="text-[#4ade80] font-medium">Artificial Intelligence</span>. Currently working at PT. Hutabyte Abhinaya Inovasi, passionate about building
+                    scalable, production-ready web applications and exploring AI
+                    technologies such as RAG systems and LLM integration.
                   </motion.p>
                   <motion.div
                     className="buttons flex flex-row justify-center items-center space-x-4 mt-10"

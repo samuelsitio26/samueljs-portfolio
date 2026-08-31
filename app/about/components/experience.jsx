@@ -6,6 +6,18 @@ import { useState } from "react";
 const experiences = [
 	{
 		id: 1,
+		startDate: "Jun 2026",
+		endDate: "Present",
+		company: "PT. Hutabyte Abhinaya Inovasi",
+		position: "Solution Engineer",
+		type: "Full-time",
+		location: "Jakarta, Indonesia",
+		description:
+			"Working as a Solution Engineer, responsible for designing and implementing end-to-end technical solutions for clients. Collaborating with cross-functional teams to analyze business requirements, architect scalable systems, and deliver robust software solutions. Contributing to backend development, API integration, and system design to ensure high-quality, production-ready deliverables.",
+		skills: ["Solution Architecture", "Backend Development", "API Integration", "System Design", "Teamwork", "Problem Solving"],
+	},
+	{
+		id: 2,
 		startDate: "Sep 2024",
 		endDate: "Jan 2026",
 		company: "Badan Eksekutif Mahasiswa Institut Teknologi Del",
@@ -17,19 +29,19 @@ const experiences = [
 		skills: ["Leadership", "Public Speaking", "Event Management", "Teamwork", "Communication", "Problem Solving"],
 	},
 	{
-		id: 2,
-		startDate: "Jun 2025",
+		id: 3,
+		startDate: "Jul 2025",
 		endDate: "Aug 2025",
 		company: "PT. Eltama Prima Indo",
 		position: "Full-stack Developer",
 		type: "Full-time Internship",
 		location: "Bogor, West Java, Indonesia",
 		description:
-			"Developed and maintained web applications using modern technologies. Collaborated with cross-functional teams to design, develop, and deploy scalable web solutions. Gained hands-on experience in both frontend and backend development, implementing new features and optimizing application performance.",
-		skills: ["Next.js", "React", "Laravel", "MySQL", "JavaScript", "TypeScript", "API Development", "Teamwork"],
+			"Developed and maintained web applications using Svelte for the frontend and Directus as a headless CMS and backend service. Built a role-based access control (RBAC) system, designed RESTful APIs, and implemented an inventory management system. Collaborated with cross-functional teams to deliver scalable, production-ready solutions.",
+		skills: ["Svelte", "Directus", "Tailwind CSS", "MySQL", "JavaScript", "RESTful API", "RBAC", "Teamwork"],
 	},
 	{
-		id: 3,
+		id: 4,
 		startDate: "Jan 2025",
 		endDate: "Jun 2025",
 		company: "VINIX7",
@@ -41,7 +53,7 @@ const experiences = [
 		skills: ["Cybersecurity", "Web Development", "Security Analysis", "Ethical Hacking", "Problem Solving"],
 	},
 	{
-		id: 4,
+		id: 5,
 		startDate: "Jan 2025",
 		endDate: "May 2025",
 		company: "Institut Teknologi Del",
@@ -53,7 +65,7 @@ const experiences = [
 		skills: ["Linear Algebra", "Teaching", "Mentoring", "Communication", "Data Structures and Algorithms"],
 	},
 	{
-		id: 5,
+		id: 6,
 		startDate: "Jan 2025",
 		endDate: "May 2025",
 		company: "Institut Teknologi Del",
@@ -65,7 +77,7 @@ const experiences = [
 		skills: ["Object-Oriented Programming", "Java", "Teaching", "Coaching & Mentoring", "Data Structures and Algorithms"],
 	},
 	{
-		id: 6,
+		id: 7,
 		startDate: "Feb 2024",
 		endDate: "May 2024",
 		company: "Institut Teknologi Del",
@@ -77,7 +89,7 @@ const experiences = [
 		skills: ["Mathematics", "Teaching", "Coaching & Mentoring", "Communication", "Problem Solving"],
 	},
 	{
-		id: 7,
+		id: 8,
 		startDate: "Oct 2023",
 		endDate: "Feb 2024",
 		company: "Himpunan Mahasiswa Sistem Informasi IT Del (HIMSI)",
@@ -89,7 +101,7 @@ const experiences = [
 		skills: ["Event Planning", "Teamwork", "Creativity", "Communication", "Organization"],
 	},
 	{
-		id: 8,
+		id: 9,
 		startDate: "Dec 2023",
 		endDate: "Dec 2023",
 		company: "Himpunan Mahasiswa Sistem Informasi IT Del (HIMSI)",

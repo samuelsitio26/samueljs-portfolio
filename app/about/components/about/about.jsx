@@ -111,35 +111,41 @@ export default function About() {
 						Samuel Janring Saragi Sitio
 					</h2>
 					<p className="text-gray-300 text-justify title text-lg">
-						Hey there, I&rsquo;m Samuel Sitio, a
-						<span className="text-[#4ade80] font-medium">
-							{" "}
-							passionate Web Developer
-						</span>{" "}
-						with strong experience in
-						<span className="text-[#4ade80] font-medium">
-							{" "}
-							frontend and backend development.
-						</span>{" "}
-						Hailing from Pematangsiantar, North Sumatera, Indonesia, I&rsquo;m currently
-						pursuing my degree in{" "}
-						<span className="text-[#4ade80] font-medium">
-							Information Systems
-						</span>{" "}
-						at{" "}
-						<span className="text-[#4ade80] font-medium">
-							Institut Teknologi Del.
-						</span>{" "}
-						My work focuses on building responsive, scalable, and
-						secure web applications using React.js, Svelte, Laravel, Golang, and JavaScript.
-						Beyond development, I have hands-on experience in
-						<span className="text-[#4ade80] font-medium"> cybersecurity</span> and
-						<span className="text-[#4ade80] font-medium"> machine learning deployment</span>.
-						In today&rsquo;s ever-changing
-						digital landscape, I believe being a
-						<span className="text-[#4ade80] font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and build impactful digital solutions together!
-					</p>
+					Hey there, I&rsquo;m Samuel Sitio, a
+					<span className="text-[#4ade80] font-medium">
+						{" "}
+						passionate Full Stack Developer &amp; Solution Engineer
+					</span>{" "}
+					with strong experience in
+					<span className="text-[#4ade80] font-medium">
+						{" "}
+						backend development, API integration, and system design.
+					</span>{" "}
+					Hailing from Pematangsiantar, North Sumatera, Indonesia, I&rsquo;m currently
+					working at{" "}
+					<span className="text-[#4ade80] font-medium">
+						PT. Hutabyte Abhinaya Inovasi
+					</span>{" "}
+					as a Solution Engineer, while completing my degree in{" "}
+					<span className="text-[#4ade80] font-medium">
+						Information Systems
+					</span>{" "}
+					at{" "}
+					<span className="text-[#4ade80] font-medium">
+						Institut Teknologi Del.
+					</span>{" "}
+					My work focuses on building responsive, scalable, and
+					secure web applications using React.js, Svelte, Laravel, Golang, and JavaScript.
+					Beyond development, I have growing expertise in
+					<span className="text-[#4ade80] font-medium"> AI-driven solutions</span>,
+					including{" "}
+					<span className="text-[#4ade80] font-medium">RAG, LLM integration</span>, and
+					<span className="text-[#4ade80] font-medium"> cybersecurity</span>.
+					In today&rsquo;s ever-changing
+					digital landscape, I believe being a
+					<span className="text-[#4ade80] font-medium"> lifelong learner</span> is
+					essential. Let&rsquo;s connect and build impactful digital solutions together!
+				</p>
 					<Card />
 				</motion.div>
 			</div>

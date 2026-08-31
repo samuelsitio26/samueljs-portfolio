@@ -139,6 +139,53 @@
       ],
       "slug": "walletnotes",
       "category": [9]
+    },
+    {
+      "show": false,
+      "title": "BEACON – Unified Ticket Tracker",
+      "desc": [
+        "BEACON is a unified ticket tracking and project management system designed to help teams manage tasks, issues, and project workflows efficiently. The system provides a centralized platform for tracking tickets, assigning tasks, and monitoring project progress in real time.",
+        "Built with a modern tech stack, BEACON features role-based access control, real-time notifications, and a clean dashboard for monitoring team productivity. The system supports multiple project workspaces, ticket categorization, priority levels, and deadline tracking.",
+        "Key features include ticket creation and assignment, status workflow management, team collaboration tools, project analytics, and integration with external services. BEACON aims to improve team communication and project transparency for software development teams."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "",
+      "thumbnail": "",
+      "images": [],
+      "tech": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "slug": "beacon-ticket-tracker",
+      "category": [1]
+    },
+    {
+      "show": false,
+      "title": "BEM IT Del Website",
+      "desc": [
+        "Official website for Badan Eksekutif Mahasiswa (BEM) Institut Teknologi Del, built to serve as the digital hub for student organization activities, announcements, and program documentation.",
+        "Developed with React for the frontend and Golang for the backend API, the website provides a fast, scalable, and maintainable platform for managing student organization content.",
+        "Features include news and announcements management, event scheduling, organizational structure display, program documentation, and an admin panel for content management. The website serves as the primary communication platform between BEM and the student body at Institut Teknologi Del."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "",
+      "images": [],
+      "tech": [
+        "React",
+        "Golang",
+        "MySQL",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "slug": "bem-website",
+      "category": [1]
     }
   ]
 }
